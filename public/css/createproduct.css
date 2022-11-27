@@ -1,0 +1,49 @@
+.form-container{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 10rem;
+}
+
+.form-wrapper{
+    width: max-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-input{
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form-input-product-name input, textarea{
+    position: relative;
+    max-width: 520px;
+    width: 520px;
+    height: 60px;
+    outline: none !important;
+    border: 1px solid rgb(126, 126, 126) !important;
+    padding: 5px;
+    font-size: 17px;
+    border-radius: 4px;
+}
+
+.form-input-product-name textarea{
+    height: 130px;
+}
+
+.form-input-product-btn button{
+    background-color: rgb(3, 68, 84);
+
+    border: none;
+    border-radius: 12px;
+    padding: 20px 100px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}

@@ -1,0 +1,62 @@
+.container-table{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 10rem;
+}
+
+.product-detial-table{
+    width: 820px;
+    border: 2px solid rgb(0, 75, 82);
+    border-radius: 4px;
+}
+
+.product-detial-header{
+   text-align: start;
+   border: none;
+}
+
+.product-detial-header tr th{
+    border: none;
+    background-color: antiquewhite;
+}
+
+.product-detial-body tr td{
+    text-align: start;
+    height: 50px;
+    margin: auto;
+    background-color: rgb(255, 255, 255) !important;
+}
+
+.product-detial-action{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.product-detial-action a{
+    text-decoration: none;
+    background-color: rgb(0, 255, 179);
+    padding: 6px 15px;
+    cursor: pointer;
+    color: black;
+}
+
+.delete-from-btn{
+    text-decoration: none;
+    background-color: tomato;
+    padding: 6px 15px;
+    cursor: pointer;
+    color: black;
+}
+
+.delete {
+    background-color: transparent !important;
+    color: white !important;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
